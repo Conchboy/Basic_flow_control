@@ -3,7 +3,7 @@ project(Basic_flow_control C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Basic_flow_control main.c rp_01_FC.c test.c rp_02_average.c rp_03_type_transfer.c rp_04_float_storage_issue.c rp_05_self_adding.c "rp_06_ternary.c")
+add_executable(Basic_flow_control main.c rp_01_FC.c test.c rp_02_average.c rp_03_type_transfer.c rp_04_float_storage_issue.c rp_05_self_adding.c "rp_06_ternary.c" rp_07_nesting_for.c)
 add_executable(rp_01_FC rp_01_FC.c)
 add_executable(test test.c)
 add_executable(rp_02_average rp_02_average.c)
@@ -12,3 +12,4 @@ add_executable(rp_04_float_storage_issue rp_04_float_storage_issue.c)
 add_executable(rp_05_self_adding rp_05_self_adding.c)
 
 add_executable(rp_06_ternary rp_06_ternary.c)
+add_executable(rp_07_nesting_for rp_07_nesting_for.c)
