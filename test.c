@@ -1,8 +1,6 @@
 //
 // Created by C2243829 on 2021/2/15.
 //
-// Created by C2243829 on 2021/2/15.
-//
 # include <stdlib.h>
 # include <conio.h>
 # define Get(C) for (C, i = n[T]; j = X + i%4, k = Y + i /4 % 4, i ; i >>= 4)
