@@ -1,6 +1,14 @@
 //
 // Created by C2243829 on 2021/2/17.
 //
+/**
+ * this is a typical notation for C/C++
+ */
+ // Ctrl + W 逐级扩大选择范围
+ // Ctrl + D and Ctrl + X
+ // 注释: ctrl +/ or Ctrl + Shift + /
+ // Ctrl + Shift + "+"/"-" 折叠打开所有的
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -10,7 +18,7 @@ int fibonacci(int a[],int m)
     {
         return 1;//递归出口
     }
-    return fibonacci(a, m - 1) + fibonacci(a, m - 2);
+    else return fibonacci(a, m - 1) + fibonacci(a, m - 2);
 }
 int main()
 {
@@ -21,6 +29,11 @@ int main()
     printf("请输入要查找哪个斐波那契数\n");
     scanf("%d", &m);
     result = fibonacci(a,--m);
+    printf("所查找的数是%d\n",result);
+    printf("所查找的数是%d\n",result);
+    printf("所查找的数是%d\n",result);
+    printf("所查找的数是%d\n",result);
+    printf("所查找的数是%d\n",result);
     printf("所查找的数是%d\n",result);
     system("pause");
     return 0;
