@@ -30,11 +30,6 @@ int main()
     scanf("%d", &m);
     result = fibonacci(a,--m);
     printf("所查找的数是%d\n",result);
-    printf("所查找的数是%d\n",result);
-    printf("所查找的数是%d\n",result);
-    printf("所查找的数是%d\n",result);
-    printf("所查找的数是%d\n",result);
-    printf("所查找的数是%d\n",result);
     system("pause");
     return 0;
 }
