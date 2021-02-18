@@ -3,11 +3,12 @@
 //
 #include <stdio.h>
 #include <math.h>
-int main(){
+
+int main() {
     double a, b, c;
     double delta;
     double x1, x2;
-    char yes_or_no = "";
+    char yesOrNo = "";
     do {
         printf("please input the parameters of quadratic equation:");
         scanf("%lf %lf %lf", &a, &b, &c);
@@ -24,9 +25,9 @@ int main(){
         } else
             printf("there is no solution for this equation!!");
 
-        printf("do you want to check another equation? Y/N");
-        scanf("%c", yes_or_no);
-    }   while (yes_or_no == "Y");
+        printf("do you want to check another equation? Y/N\n");
+        scanf("%c", yesOrNo);
+    } while (yesOrNo == "Y");
 
     return 0;
 }
