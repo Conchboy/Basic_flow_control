@@ -16,3 +16,4 @@ add_executable(rp_08_while rp_08_while.c)
 
 add_executable(rp_09_Fibonacci rp_09_Fibonacci.c)
 add_executable(rp_10_fibonacci_recurrence rp_10_fibonacci_recurrence.c)
+add_executable(rp_11_quadratic rp_11_quadratic.c)
