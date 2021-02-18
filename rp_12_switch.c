@@ -1,7 +1,9 @@
 //
 // Created by C2243829 on 2021/2/18.
-//
 
+    // break 如果用于for 和 while循环, 那就是退出循环; break 用于switch, 退出switch
+// k但是break不能直接用于if语句, 除非if语句是循环或者switch的一部分;
+//
 #include <stdio.h>
 
 int main() {
@@ -19,8 +21,7 @@ int main() {
             break;
 
         case 3:
-            printf("third floor! \n");
-            break;
+              break;
 
         case 4:
             printf("forth floor! \n");
