@@ -1,9 +1,11 @@
 //
 // Created by C2243829 on 2021/2/18.
 
-    // break å¦‚æžœç”¨äºŽfor å’Œ whileå¾ªçŽ¯, é‚£å°±æ˜¯é€€å‡ºå¾ªçŽ¯; break ç”¨äºŽswitch, é€€å‡ºswitch
-// kä½†æ˜¯breakä¸èƒ½ç›´æŽ¥ç”¨äºŽifè¯­å¥, é™¤éžifè¯­å¥æ˜¯å¾ªçŽ¯æˆ–è€…switchçš„ä¸€éƒ¨åˆ†;
-//
+// break Èç¹ûÓÃÓÚfor ºÍ whileÑ­»·, ÄÇ¾ÍÊÇÍË³öÑ­»·; break ÓÃÓÚswitch, ÍË³öswitch
+// µ«ÊÇbreak²»ÄÜÖ±½ÓÓÃÓÚifÓï¾ä, ³ý·ÇifÓï¾äÊÇÑ­»·»òÕßswitchµÄÒ»²¿·Ö;
+// break ÖÕÖ¹µÄÊÇ×î½üµÄÑ­»·ºÍ×î½üµÄswitch;
+// continueÓÃÓÚÌø¹ý±¾´ÎÑ­»·ÓàÏÂµÄÓï¾ä, ×ª¶øÅÐ¶ÏÊÇ·ñ¼ÌÐøÑ­»·!
+
 #include <stdio.h>
 
 int main() {
@@ -14,7 +16,7 @@ int main() {
     switch (val) {
         case 1:
             printf("first floor! \n");
-            break; // IMPORTANT!! è¿™é‡Œçš„breakèµ·åˆ°éš”ç¦»å…¥å£çš„ä½œç”¨, å¯ä»¥æƒ³è±¡æˆæ˜¯ä¸€ä¸ªéš”æ¿. å¦‚æžœå¸æŽ‰éš”æ¿, é‚£ä¹ˆä»Žä¸Šå¾€ä¸‹ç›¸åº”çš„ä»£ç éƒ½ä¼šå¾—åˆ°æ‰§è¡Œ!
+            break; // IMPORTANT!! ÕâÀïµÄbreakÆðµ½¸ôÀëÈë¿ÚµÄ×÷ÓÃ, ¿ÉÒÔÏëÏó³ÉÊÇÒ»¸ö¸ô°å. Èç¹ûÐ¶µô¸ô°å, ÄÇÃ´´ÓÉÏÍùÏÂÏàÓ¦µÄ´úÂë¶¼»áµÃµ½Ö´ÐÐ!
 
         case 2:
             printf("second floor! \n");

@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
 project(Basic_flow_control C)
-
 set(CMAKE_C_STANDARD 99)
 
 add_executable(Basic_flow_control main.c rp_01_FC.c test.c rp_02_average.c rp_03_type_transfer.c rp_04_float_storage_issue.c rp_05_self_adding.c "rp_06_ternary.c" rp_07_nesting_for.c rp_08_while.c rp_09_Fibonacci.c rp_10_fibonacci_recurrence.c rp_11_quadratic.c rp_12_switch.c)
@@ -13,7 +12,6 @@ add_executable(rp_05_self_adding rp_05_self_adding.c)
 add_executable(rp_06_ternary rp_06_ternary.c)
 add_executable(rp_07_nesting_for rp_07_nesting_for.c)
 add_executable(rp_08_while rp_08_while.c)
-
 add_executable(rp_09_Fibonacci rp_09_Fibonacci.c)
 add_executable(rp_10_fibonacci_recurrence rp_10_fibonacci_recurrence.c)
 add_executable(rp_11_quadratic rp_11_quadratic.c)
